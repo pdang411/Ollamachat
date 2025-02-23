@@ -2,7 +2,9 @@ Chat with Ollama docker application. Download code file and run in docker comman
 
 remote server set up in window change enviroment in windows
 
-**Change API for Ollama local or remote host  "OLLAMA_HOST "0.0.0.0"
+** Change API setting for Ollama local or remote host  "OLLAMA_HOST "0.0.0.0" **
+
+This allow other device on network to access Ollama in ** Window enviroment**
 
 Edit App.py to change URL direct to correct server address.
 
