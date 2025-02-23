@@ -4,6 +4,8 @@ remote set up in window change enviroment in windows
 
 **Change API for Ollama local or remote host  "OLLAMA_HOST "0.0.0.0"
 
+Edit App.py to change URL direct to correct server address.
+
 client = OpenAI(base_url="http://192.168.X.X:11434/v1", api_key="not-needed")
 
 Local set up Ollama 127.0.0.1:11434/v1 or Localhost
