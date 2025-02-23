@@ -1,6 +1,6 @@
 Chat with Ollama docker application. Download code file and run in docker command prompt to your folder  contain Ollamachat. Use VScode or any other IDE open folder . 
 
-remote set up in window change enviroment in windows
+remote server set up in window change enviroment in windows
 
 **Change API for Ollama local or remote host  "OLLAMA_HOST "0.0.0.0"
 
