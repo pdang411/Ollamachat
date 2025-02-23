@@ -3,7 +3,7 @@ import openai
 import ollama
 from openai import OpenAI
 
-client = OpenAI(base_url="http://192.168.1.14:11434/v1", api_key="not-needed")
+client = OpenAI(base_url="http://192.168.X.X:11434/v1", api_key="not-needed")
 
 #openai.api_key = os.getenv("OPEN_API_KEY")
 MODEL= "llama3.2:3b"
