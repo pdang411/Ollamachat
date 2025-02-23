@@ -34,7 +34,7 @@ venv\Scripts\activate
 
 run $ pip install -r requirements.txt
 
-OPEN **** docker desktop in MAC or Window ****
+OPEN **** Docker Desktop in MAC or Window ****
 
 run docker command terminal or cmd
 
