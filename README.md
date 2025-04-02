@@ -10,9 +10,6 @@ Edit App.py to change URL direct to correct server address.
 
 client = OpenAI(base_url="http://192.168.X.X:11434/v1", api_key="not-needed")
 
-localhost:client = OpenAI(base_url="http://localhost:11434/v1", api_key="not-needed") or
-
-client = OpenAI(base_url="http://127.0.0.1:11434/v1", api_key="not-needed")
 
 Local set up Ollama 127.0.0.1:11434/v1 or Localhost
 
