@@ -1,6 +1,6 @@
 Chat with Ollama docker application. Download code file and run in docker command prompt to your folder  contain Ollamachat. Use VScode or any other IDE open folder . 
 
-remote server set up in window change enviroment in windows
+**remote server set up in window change enviroment in windows**
 
 ** Change API setting for Ollama local or remote host  "OLLAMA_HOST "0.0.0.0" **
 
@@ -9,6 +9,10 @@ This allow other device on network to access Ollama in ** Window enviroment**
 Edit App.py to change URL direct to correct server address.
 
 client = OpenAI(base_url="http://192.168.X.X:11434/v1", api_key="not-needed")
+
+localhost:client = OpenAI(base_url="http://localhost:11434/v1", api_key="not-needed") or
+
+client = OpenAI(base_url="http://127.0.0.1:11434/v1", api_key="not-needed")
 
 Local set up Ollama 127.0.0.1:11434/v1 or Localhost
 
