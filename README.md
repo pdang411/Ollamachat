@@ -46,3 +46,6 @@ docker run -d -p 7860:7860 gradio-app
 ![Screenshot 2025-02-23 143625](https://github.com/user-attachments/assets/82f2bfad-cd1d-4040-85b3-aff9f95cba9c)
 
 7-17-2025 updated app.py to get local model functions for ollama server give option to chose your llm models. Example switch from mistral:7b to llama3.2:3b using drop down menu depending how many models you have upload to ollam server to use.
+
+<img width="2522" height="1197" alt="Screenshot 2025-07-17 185526" src="https://github.com/user-attachments/assets/3c071ef5-779c-457e-829b-3390f8933483" />
+
